@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.0.5" provider-name="GeekTvPR Group">
+<addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.0.6" provider-name="GeekTvPR Group">
 	<requires>
             <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -21,9 +21,9 @@
             <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
             </dir>
         <dir>
-			<info compressed="false">https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/intrcomp/tutorial/raw/master/zips</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/GeekTvPR/tutorial/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/GeekTvPR/tutorial/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/GeekTvPR/tutorial/raw/master/zips</datadir>
 			</dir>
 		<dir>
 			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
