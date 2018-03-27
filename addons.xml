@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
+<addon id="plugin.video.cloud9install" name="RomFlix emulator installer" version="1" provider-name=".:C.T.R.L:.">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">RomFlix emulator installer</summary>
+    <description lang="en">Easy Install off the install off the emulators that are needed for the use off romflix </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.0.8" provider-name="GeekTvPR Group">
 	<requires>
             <import addon="xbmc.addon" version="12.0.0"/>
