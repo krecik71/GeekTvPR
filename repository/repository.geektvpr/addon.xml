@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.0.8" provider-name="GeekTvPR Group">
+<addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.0.9" provider-name="GeekTvPR Group">
 	<requires>
             <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -45,6 +45,12 @@
             <info>https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/</datadir>
+        </dir>
+
+        <dir>
+            <info compressed="true">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
+        <checksum>https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/zach-morris/repository.zachmorris/master/</datadir>
         </dir>
 
 
