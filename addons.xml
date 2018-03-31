@@ -247,7 +247,7 @@
 
 <addon id="plugin.video.allianceloader"
        name="Alliance Playlist Loader"
-       version="2.2"
+       version="2.3"
        provider-name="Alliance Group">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -267,6 +267,8 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+
+
   <extension point="xbmc.addon.metadata">
     <summary>Forked from livestream-pro - Needed for Alliance</summary>
     <description>
