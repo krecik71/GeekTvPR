@@ -41,10 +41,10 @@ def ExtractAll(_in, _out):
 
 
 def Repo():
-    if os.path.exists(os.path.join(xbmc.translatePath("special://home/addons/").decode("utf-8"), 'repository.intrcomp')):
+    if os.path.exists(os.path.join(xbmc.translatePath("special://home/addons/").decode("utf-8"), 'repository.geektvpr')):
         return
         
-    url = "http://intrcomp.net/Plugins/repository.intrcomp/repository.intrcomp.zip"
+    url = "http://repo.geektvpr.com/zips/repository.geektvpr-2.1.0.zip"
     addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
     packageFile = os.path.join(addonsDir, 'packages', 'isr.zip')
     
@@ -105,7 +105,7 @@ if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
 
-SOURCES = [{"url": "http://www.geektvpr.com/intrcomp/racetv/main.xml", "fanart": "https://imgur.com/ZE2jzPx"}]
+SOURCES = [{"url": "http://www.geektvpr.com/intrcomp/racetv/main.php", "fanart": "https://imgur.com/ZE2jzPx"}]
 
 
 def addon_log(string):
