@@ -215,6 +215,7 @@
   </extension>
 </addon>
 
+
 <addon id="plugin.video.alliance" name="Alliance" version="3.6" provider-name="Alliance Group">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
