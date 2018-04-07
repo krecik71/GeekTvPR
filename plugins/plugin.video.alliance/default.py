@@ -21,7 +21,7 @@ import __builtin__
 # CONFIGURATION VARIABLES
 # -----------------------
 # change these to suit your addons
-root_xml_url = "http://www.geektvpr.com/intrcomp/brotherhood/main.xml"  # url of the root xml file
+root_xml_url = "http://www.geektvpr.com/intrcomp/brotherhood/main.php"  # url of the root xml file
 __builtin__.tvdb_api_key = "7E38CC315C6DBF04"  # tvdb api key
 __builtin__.tmdb_api_key = "ecfb04fb4150b11d70a86925fdf77fea"  # tmdb api key
 __builtin__.trakt_client_id = "cd84952767616ececa7ae40b1ee46cc8b31dfac4a6bcd769b5226a4b47011495"  # trakt client id
