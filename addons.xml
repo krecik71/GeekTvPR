@@ -185,7 +185,7 @@
 
 <addon id="plugin.video.Racetv"
        name="RACETV"
-       version="3.4"
+       version="3.5"
        provider-name="RACETV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
