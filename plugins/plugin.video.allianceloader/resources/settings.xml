@@ -8,7 +8,7 @@
     <setting id="debug" type="bool" label="Enable Add-on Debugging" default="false"/>
     <setting id="1080pquality" label="Play 1080p video ON demand if available (Not live)" type="bool" default=""/>
     <setting id="genesisorpulsar" type="enum" values="Genesis|Pulsar" label="Play IMDBid with:" default="Genesis"/>
-    <setting id="donotshowbychannels" label="Do Not show items under channel name" type="bool" default="false"/>
+    <setting id="donotshowbychannels" label="Do Not show items under channel name" type="bool" default="true"/>
     
     <setting id="parentalblockedpin" label="Parental Block Pin" type="text"  option="hidden"  default=""/>
     <setting id="parentalblocked" label="Is Parental Blocked Applied?" type="bool" default="false" enable="false"/>
