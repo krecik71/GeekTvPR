@@ -244,7 +244,7 @@
 
 <addon id="plugin.video.allianceloader"
        name="Alliance Playlist Loader"
-       version="2.5"
+       version="2.6"
        provider-name="Alliance Group">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
