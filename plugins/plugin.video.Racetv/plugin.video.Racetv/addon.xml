@@ -1,0 +1,29 @@
+<?xml version="0.1" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Racetv" name="Racetv" version="3.6" provider-name="Racetv">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.2" />
+        <import addon="script.module.python.koding.aio" version="0.9.9.4.3" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+		    <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">RaceTV Como Tu Boricua</summary>
+      <summary lang="he"></summary>
+      <description lang="en">Por más de media década RACETV BORICUA, se ha esforzado por llevar las raíces boricuas a todos los espectadores. Nuestra misión es la promoción de su negocio u organización, con tan solo una DONACION DE $10.00 POR MES. el anuncio de su negocio llegará a un plano internacional. Anímate a llegar a más clientes a través de internet. Cabe mencionar que nuestra página está disponible en teléfonos Android, Iphone y Tabletas. Como nos esforzamos por brindar una promoción de excelencia tenemos disponibles el servicio y creación de stickers hechos a su medida y deseo. Comuníquese hoy y pida una cotización. Luisacevedo1973@hotmail.com o joseperez1765@gmail.com, Contactenos 1-727-302-1910 Somos una organización 100% boricua. Solicite una cotización hoy.</description>
+      <description lang="he"></description>
+      <disclaimer lang="en"></disclaimer>
+      <disclaimer lang="he"></disclaimer>
+      <platform>all</platform>
+        <website>>http://racetv-boricua.net</website>
+        <video_guide></video_guide>
+    </extension>
+</addon>
