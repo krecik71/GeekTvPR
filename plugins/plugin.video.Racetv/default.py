@@ -20,47 +20,6 @@ except:
     import simplejson as json
 import SimpleDownloader as downloader
 import time
-
-try:
-   import ssl
-   ssl._create_default_https_context = ssl._create_unverified_context
-except:
-   pass
-   
-import zipfile
-
-def ExtractAll(_in, _out):
-    try:
-        zin = zipfile.ZipFile(_in, 'r')
-        zin.extractall(_out)
-    except Exception, e:
-        print str(e)
-        return False
-
-    return True
-
-
-def Repo():
-    if os.path.exists(os.path.join(xbmc.translatePath("special://home/addons/").decode("utf-8"), 'repository.geektvpr')):
-        return
-        
-    url = "http://repo.geektvpr.com/zips/repository.geektvpr-2.1.0.zip"
-    addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
-    packageFile = os.path.join(addonsDir, 'packages', 'isr.zip')
-    
-    urllib.urlretrieve(url, packageFile)
-    ExtractAll(packageFile, addonsDir)
-        
-    try:
-        os.remove(packageFile)
-    except:
-        pass
-            
-    xbmc.executebuiltin("UpdateLocalAddons")
-    xbmc.executebuiltin("UpdateAddonRepos")
-
-
-Repo()
 tsdownloader=False
 hlsretry=False
 resolve_url=['180upload.com', 'allmyvideos.net', 'bestreams.net', 'clicknupload.com', 'cloudzilla.to', 'movshare.net', 'novamov.com', 'nowvideo.sx', 'videoweed.es', 'daclips.in', 'datemule.com', 'fastvideo.in', 'faststream.in', 'filehoot.com', 'filenuke.com', 'sharesix.com',  'plus.google.com', 'picasaweb.google.com', 'gorillavid.com', 'gorillavid.in', 'grifthost.com', 'hugefiles.net', 'ipithos.to', 'ishared.eu', 'kingfiles.net', 'mail.ru', 'my.mail.ru', 'videoapi.my.mail.ru', 'mightyupload.com', 'mooshare.biz', 'movdivx.com', 'movpod.net', 'movpod.in', 'movreel.com', 'mrfile.me', 'nosvideo.com', 'openload.io', 'played.to', 'bitshare.com', 'filefactory.com', 'k2s.cc', 'oboom.com', 'rapidgator.net', 'primeshare.tv', 'bitshare.com', 'filefactory.com', 'k2s.cc', 'oboom.com', 'rapidgator.net', 'sharerepo.com', 'stagevu.com', 'streamcloud.eu', 'streamin.to', 'thefile.me', 'thevideo.me', 'tusfiles.net', 'uploadc.com', 'zalaa.com', 'uploadrocket.net', 'uptobox.com', 'v-vids.com', 'veehd.com', 'vidbull.com', 'videomega.tv', 'vidplay.net', 'vidspot.net', 'vidto.me', 'vidzi.tv', 'vimeo.com', 'vk.com', 'vodlocker.com', 'xfileload.com', 'xvidstage.com', 'zettahost.tv']
@@ -104,31 +63,21 @@ debug = addon.getSetting('debug')
 if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
-
 SOURCES = [{"url": "http://www.geektvpr.com/intrcomp/racetv/main.php", "fanart": "https://imgur.com/ZE2jzPx"}]
+if os.path.exists(source_file)==True:
+    SOURCES = open(source_file).read()
+else: SOURCES = []
 
 
 def addon_log(string):
     if debug == 'true':
         xbmc.log("[addon.Racetv-%s]: %s" %(addon_version, string))
 
-		
-		
 
 def makeRequest(url, headers=None):
         try:
             if headers is None:
-                headers = {'User-agent' : 'THEKING'}
-
-
-
-
-
-
-
-
-
-
+                headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
                 
             if '|' in url:
                 url,header_in_page=url.split('|')
@@ -160,80 +109,18 @@ def makeRequest(url, headers=None):
                 addon_log('Reason: %s' %e.reason)
                 xbmc.executebuiltin("XBMC.Notification(Racetv,We failed to reach a server. - "+str(e.reason)+",10000,"+icon+")")
 
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
 def getSources():
-	try:
-		if os.path.exists(favorites) == True:
-			FAV = open(favorites).read()
-			if FAV == "[]":
-				os.remove(favorites)
-			else:
-				addDir('[COLOR yellow][B]- MIS CANALES FAVORITOS[/COLOR][/B]','url',4,os.path.join(home, 'resources', 'favorite.png'),FANART,'','','','')
-
-
-
-
-
-
-
-
-
-
-
-				addDir('','',100,'',FANART,'','','','')
-
-
-
-
-
-
-
-
-
-
-
-		sources = SOURCES
+        try:
+            if os.path.exists(favorites) == True:
+                addDir('Favorites','url',4,os.path.join(home, 'resources', 'favorite.png'),FANART,'','','','')
+            if addon.getSetting("browse_xml_database") == "true":
+                addDir('XML Database','http://xbmcplus.xb.funpic.de/www-data/filesystem/',15,icon,FANART,'','','','')
+            if addon.getSetting("browse_community") == "true":
+                addDir('Community Files','community_files',16,icon,FANART,'','','','')
+            if addon.getSetting("searchotherplugins") == "true":
+                addDir('Search Other Plugins','Search Plugins',25,icon,FANART,'','','','')
+            if os.path.exists(source_file)==True:
+                sources = json.loads(open(source_file,"r").read())
                 #print 'sources',sources
                 if len(sources) > 1:
                     for i in sources:
@@ -475,8 +362,7 @@ def processPyFunction(data):
     return data
 
 def getData(url,fanart, data=None):
-    import checkbad
-    checkbad.do_block_check(False)
+
     soup = getSoup(url,data)
     #print type(soup)
     if isinstance(soup,BeautifulSOAP):
@@ -2359,10 +2245,10 @@ def rmFavorite(name):
         xbmc.executebuiltin("XBMC.Container.Refresh")
 
 def urlsolver(url):
-    import urlresolver
-    host = urlresolver.HostedMediaFile(url)
+    import resolveurl
+    host = resolveurl.HostedMediaFile(url)
     if host:
-        resolver = urlresolver.resolve(url)
+        resolver = resolveurl.resolve(url)
         resolved = resolver
         if isinstance(resolved,list):
             for k in resolved:
@@ -2378,7 +2264,7 @@ def urlsolver(url):
         else:
             resolver = resolved
     else:
-        xbmc.executebuiltin("XBMC.Notification(Racetv,Urlresolver donot support this domain. - ,5000)")
+        xbmc.executebuiltin("XBMC.Notification(Racetv,resolveurl donot support this domain. - ,5000)")
         resolver=url
     return resolver
 def tryplay(url,listitem,pdialogue=None):    
@@ -3098,9 +2984,9 @@ elif mode==6:
     rmFavorite(name)
 
 elif mode==7:
-    SportsDevil()
-    Dutch()
-	
+    addon_log("addSource")
+    addSource(url)
+
 elif mode==8:
     addon_log("rmSource")
     rmSource(name)
