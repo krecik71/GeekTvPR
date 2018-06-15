@@ -57,6 +57,17 @@
         <checksum>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml.md5</checksum>
         <datadir zip="true">https://github.com/alfa-addon/alfa-repo/raw/master</datadir>
         </dir>
+         <dir>
+            <info compressed="false">https://raw.githubusercontent.com/tubestrending/john/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/tubestrending/john/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/tubestrending/john/master/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">http://repo.trident.fun/_repo/addons.xml</info>
+            <checksum>http://repo.trident.fun/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://repo.trident.fun/_repo/</datadir>
+        </dir>
+
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Repositorio GeekTvPR Media</summary>
