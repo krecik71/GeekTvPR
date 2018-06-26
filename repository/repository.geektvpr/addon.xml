@@ -67,6 +67,11 @@
             <checksum>http://repo.trident.fun/_repo/addons.xml.md5</checksum>
             <datadir zip="true">http://repo.trident.fun/_repo/</datadir>
         </dir>
+        <dir>
+            <info compressed="false">https://www.onenation.appboxes.co/repository/repofiles/addons.xml</info>
+        <checksum>https://www.onenation.appboxes.co/repository/repofiles/addons.xml.md5</checksum>
+        <datadir zip="true">https://www.onenation.appboxes.co/repository/repofiles/</datadir>
+        </dir>
 
 	</extension>
 	<extension point="xbmc.addon.metadata">
