@@ -45,7 +45,7 @@ if REMOTE_DBG:
         sys.exit(1)
 
 
-addon = xbmcaddon.Addon('plugin.video.live.streamspro')
+addon = xbmcaddon.Addon('plugin.video.allianceloader')
 addon_version = addon.getAddonInfo('version')
 profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
 home = xbmc.translatePath(addon.getAddonInfo('path').decode('utf-8'))
@@ -70,7 +70,7 @@ else: SOURCES = []
 
 def addon_log(string):
     if debug == 'true':
-        xbmc.log("[addon.live.streamspro-%s]: %s" %(addon_version, string))
+        xbmc.log("[addon.allianceloader-%s]: %s" %(addon_version, string))
 
 def makeRequest(url, headers=None):
         try:
