@@ -1,9 +1,9 @@
-# Addon Name: Jen
-# Addon id: plugin.video.Jen
-# Addon Provider: Jen
+# Addon Name: Alliance
+# Addon id: plugin.video.alliance
+# Addon Provider: Alliance Group
 msgid ""
 msgstr ""
-"Project-Id-Version: Jen\n"
+"Project-Id-Version: alliance\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: English\n"
