@@ -33,6 +33,19 @@ icon="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/
 fanart="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/fanart.jpg"
 description="Targetted Workout Videos"
 
+name="Athlean-X Style"
+section="false"
+search="false"
+subid="Athlean-X"
+playlistid="false"
+channelid="false"
+videoid="false"
+icon="http://"
+fanart="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/fanart.jpg"
+description="Athlean-X Style"
+
+
+
 name="General Fitness Videos"
 section="false"
 search="false"
@@ -56,7 +69,7 @@ icon="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/
 fanart="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/fanart.jpg"
 description="Fitness Channels"
 
-name="Athlean-X Workout Videos"
+name="Athlean-X"
 section="false"
 search="false"
 subid="false"
