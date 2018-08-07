@@ -1,0 +1,2 @@
+11/24/2017
+    - Fixed an issue with addon.py that would break submenu creation of menus 2 items or deeper

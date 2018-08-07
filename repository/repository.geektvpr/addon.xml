@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.1.2" provider-name="GeekTvPR Group">
+<addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.1.3" provider-name="GeekTvPR Group">
 	<requires>
             <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -76,6 +76,11 @@
         	<info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://hdlatino.us/hdlatino/plugins/addons.xml</info>
+        <checksum>https://hdlatino.us/hdlatino/plugins/addons.xml.md5</checksum>
+        <datadir zip="true">https://hdlatino.us/hdlatino/plugins/</datadir>
         </dir>
 
 	</extension>
