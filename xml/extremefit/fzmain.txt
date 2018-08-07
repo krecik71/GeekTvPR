@@ -20,16 +20,6 @@ icon="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/
 fanart="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/fanart.jpg"
 description="10 Best Mobility/Flexibility Drills (PRE-WORKOUT)"
 
-name="Warm Up Stretches"
-section="false"
-search="false"
-subid="false"
-playlistid="PL3nu2-xwAZhGjslf5yP2IVwkBQ2qlb_PK"
-channelid="false"
-videoid="false"
-icon="http://"
-fanart="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/fanart.jpg"
-description="Warm Up Stretches"
 
 name="Flexibility, Warm Up, and Cool Down"
 section="false"
