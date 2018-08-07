@@ -196,6 +196,17 @@ icon="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/
 fanart="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/fanart.jpg"
 description="Fitness Channels"
 
+name="Athlean-X Workout Videos"
+section="false"
+search="false"
+subid="false"
+playlistid="false"
+channelid="UCe0TLA0EsQbE-MjuHXevj2A"
+videoid="false"
+icon="http://"
+fanart="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/fanart.jpg"
+description="Athlean-X Workout Videos"
+
 name="Amanda Russel"
 section="false"
 search="false"
