@@ -21,7 +21,6 @@ fanart="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefi
 description="10 Best Mobility/Flexibility Drills (PRE-WORKOUT)"
 
 
-
 name="[COLOR limegreen]*** Targetted Workout Videos ***[/COLOR]"
 section="true"
 search="false"
@@ -43,8 +42,6 @@ videoid="false"
 icon="http://"
 fanart="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/fanart.jpg"
 description="Athlean-X Style"
-
-
 
 name="General Fitness Videos"
 section="false"
