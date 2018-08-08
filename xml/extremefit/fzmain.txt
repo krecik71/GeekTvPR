@@ -1,3 +1,27 @@
+name="[COLOR limegreen]*** Only Diet Programs / Recepies that Works ***[/COLOR]"
+section="true"
+search="false"
+subid="false"
+playlistid="false"
+channelid="false"
+videoid="false"
+icon="https://"
+fanart="https://"
+description="Diet Programs / Plans / Recepies"
+
+name="Snake Diet(Best Fastest Results Diet Ever : [COLOR red]Warning: Not But Not For Cry Babies)[/COLOR]"
+section="false"
+search="false"
+subid="false"
+playlistid="false"
+channelid="UC_yUeH8TsG5pxqvkOxBtsFA"
+videoid="false"
+icon="https://"
+fanart="https://"
+description="Diet Programs / Plans / Recepies"
+
+
+
 name="[COLOR limegreen]*** Stretching ***[/COLOR]"
 section="true"
 search="false"
