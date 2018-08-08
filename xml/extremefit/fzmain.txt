@@ -643,7 +643,7 @@ description="Mollie"
 
 
 
-name="[COLOR limegreen]*** Trainer Workout Collections ***[/COLOR]"
+name="[COLOR limegreen]*** Trainer Workout Collections [COLOR red](Comming Soon)[/COLOR]***[/COLOR]"
 section="true"
 search="false"
 subid="false"
