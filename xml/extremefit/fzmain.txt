@@ -64,7 +64,16 @@ icon="https://"
 fanart="https://"
 description="Low Carb Diet"
 
-
+name="Dr. Eric Berg Get Healthy, Loose Weight & Feel Great!"
+section="false"
+search="false"
+subid="false"
+playlistid="false"
+channelid="UC3w193M5tYPJqF0Hi-7U-2g"
+videoid="false"
+icon="https://"
+fanart="https://"
+description="Dr. Eric Berg Get Healthy, Loose Weight & Feel Great!"
 
 
 name="[COLOR limegreen]*** Stretching ***[/COLOR]"
