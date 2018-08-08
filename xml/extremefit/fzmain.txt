@@ -175,7 +175,7 @@ icon="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/
 fanart="https://raw.githubusercontent.com/intrcomp/GeekTvPR/master/xml/extremefit/fanart.jpg"
 description="Targetted Workout Videos"
 
-name="[COLOR limegreen]*** Targetted Workout Videos ***[/COLOR]"
+name="Targetted Workout Videos"
 section="false"
 search="false"
 subid="target"
