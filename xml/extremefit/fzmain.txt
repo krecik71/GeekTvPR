@@ -633,3 +633,13 @@ icon="https://"
 fanart="https://"
 description="Trainer Workout Collections"
 
+<item>
+	<title>[B][COLOR white]Test[/COLOR][/B]</title>
+	<link>
+		<sublink>http://uptostream.com/zt07dtk9vcbw</sublink>
+	</link>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+	<content></content>
+</item>
+
