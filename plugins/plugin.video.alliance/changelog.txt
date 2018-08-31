@@ -1,4 +1,8 @@
-v1.1
+V3.7
+added scripts 
+
+v3.6
+
 based on bob 1.0.12
 
 Added "plugin" system, see plugin.py
@@ -9,4 +13,3 @@ Loads of bugfixes
 
 Release 1.0.0 initial release
 
-based on bob 1.0.1
