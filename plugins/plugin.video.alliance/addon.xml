@@ -10,6 +10,8 @@
         <import addon="script.module.xmltodict" version="0.9.0" />
 		    <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
+		<import addon="script.module.mobdro" version="11" />
+		<import addon="script.module.tvone1111" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
