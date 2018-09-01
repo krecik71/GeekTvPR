@@ -315,7 +315,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alliance" name="Alliance" version="3.6" provider-name="Alliance Group">
+<addon id="plugin.video.alliance" name="Alliance" version="3.7" provider-name="Alliance Group">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.2" />
@@ -324,8 +324,10 @@
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+		    <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
+		<import addon="script.module.mobdro" version="11" />
+		<import addon="script.module.tvone1111" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
