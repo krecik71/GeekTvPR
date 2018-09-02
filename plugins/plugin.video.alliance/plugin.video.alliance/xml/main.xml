@@ -1,4 +1,4 @@
-<arrakis>
+<alliance>
     <mainmenu>
         <plugin>
 <title>[B][COLOR white]Español [/COLOR][/B]</title>
@@ -30,15 +30,16 @@
         <animated_fanart></animated_fanart>
         <fanart></fanart>
 </dir>
- 
+
 <dir>
-        <name>[COLOR white][B]Sports[/B][/COLOR]</name>
-        <link>http://www.geektvpr.com/intrcomp/brotherhood/sports.php</link>
-        <animated_thumbnail></animated_thumbnail>
-        <thumbnail>https://i.imgur.com/zXffIR5.png</thumbnail>
-        <animated_fanart></animated_fanart>
-        <fanart></fanart>
-</dir>
+            <title>[COLOR white][B]Sports Hub[/B][/COLOR]</title>
+            <meta>
+                <title>Sports Hub</title>
+                <summary>Sports addons are always a work in progress, and this is no exception. Archives and Live Feeds will grow and improve over time</summary>
+            </meta>
+            <link>file://sports/main.xml</link>
+            <thumbnail>https://i.imgur.com/zXffIR5.png</thumbnail>
+        </dir>
  
  
 <plugin>
@@ -245,15 +246,7 @@ plugin>
             <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/docu.png</thumbnail>
         </dir>
 
-        dir>
-            <title>Sports Hub</title>
-            <meta>
-                <title>Sports Hub</title>
-                <summary>Sports addons are always a work in progress, and this is no exception. Archives and Live Feeds will grow and improve over time</summary>
-            </meta>
-            <link>file://sports/main.xml</link>
-            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/sports.png</thumbnail>
-        </dir>
+        
 
         dir>
             <title>Kids Play Room</title>
@@ -334,7 +327,7 @@ plugin>
             <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/hero.png</thumbnail>
         </dir>
 
-        <dir>
+        dir>
             <title>Settings</title>
             <meta>
                 <title>Settings</title>
@@ -344,4 +337,4 @@ plugin>
             <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/settings.png</thumbnail>
         </dir>
     </mainmenu>
-</arrakis>
+</alliance>
