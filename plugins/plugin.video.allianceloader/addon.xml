@@ -17,7 +17,7 @@
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.slproxy" />
     <import addon="script.module.pyamf" optional="true"/>
-	<import addon="script.module.mobdro" version="11" />
+	<import addon="script.module.mobdro" />
     <import addon="script.module.tvone1111" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
