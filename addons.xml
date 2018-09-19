@@ -2,7 +2,7 @@
 <addons>
 
 
-<addon id="script.module.mobdro" name="Mobdro" version="11" provider-name="RACC">
+<addon id="script.module.mobdro" name="Mobdro" version="2.0" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.livestreamer" />
@@ -10,7 +10,7 @@
     <import addon="script.module.routing" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
+    <provides>all</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_gb">Mobdro</summary>
