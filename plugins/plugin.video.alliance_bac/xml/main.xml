@@ -1,0 +1,340 @@
+<alliance>
+    <mainmenu>
+        <plugin>
+<title>[B][COLOR white]Español [/COLOR][/B]</title>
+<link>plugin://plugin.video.allianceloader/?mode=1&url=http://dl.dropboxusercontent.com/s/8w0ohmud981r14r/Alliance.xml</link>
+<thumbnail>https://i.imgur.com/eK7DUUR.png</thumbnail>
+</plugin>
+
+<dir>
+    <title>[COLOR white][B]Movies[/B][/COLOR]</title>
+    <link>http://www.geektvpr.com/intrcomp/brotherhood/movies.php</link>
+<thumbnail>https://i.imgur.com/vCY32xO.png</thumbnail>
+<fanart>h</fanart>
+    <content></content>
+</dir>
+ 
+<dir>
+    <title>[COLOR white][B]TV Shows[/B][/COLOR]</title>
+    <link>http://www.geektvpr.com/intrcomp/brotherhood/tvshows.php</link>
+<thumbnail>https://i.imgur.com/eK7DUUR.png</thumbnail>
+<fanart></fanart>
+    <content></content>
+</dir>
+
+<dir>
+        <name>[COLOR white][B]Live TV[/B][/COLOR]</name>
+        <link>http://www.geektvpr.com/cpradof/live.xml</link>
+        <animated_thumbnail></animated_thumbnail>
+        <thumbnail>https://i.imgur.com/iPtveOt.png</thumbnail>
+        <animated_fanart></animated_fanart>
+        <fanart></fanart>
+</dir>
+
+<dir>
+            <title>[COLOR white][B]Sports Hub[/B][/COLOR]</title>
+            <meta>
+                <title>Sports Hub</title>
+                <summary>Sports addons are always a work in progress, and this is no exception. Archives and Live Feeds will grow and improve over time</summary>
+            </meta>
+            <link>file://sports/main.xml</link>
+            <thumbnail>https://i.imgur.com/zXffIR5.png</thumbnail>
+        </dir>
+ 
+ 
+<plugin>
+<title>[COLOR white][B]News[/B][/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS/</link>
+<thumbnail>https://i.imgur.com/iPtveOt.png</thumbnail>
+</plugin>
+
+<dir>
+    <title>[COLOR white][B]Race TV[/B][/COLOR]</title>
+    <link>https://www.geektvpr.com/intrcomp/racetv/main.php</link>
+    <thumbnail>https://i.imgur.com/8KlHw51.jpg</thumbnail>
+    <summary>RaceTv Canales Locales de Puerto Rico y La casa de la Comadre</summary>
+</dir>
+
+ 
+<dir>
+    <title>[COLOR white][B]Kids[/B][/COLOR]</title>
+    <link>http://www.geektvpr.com/intrcomp/brotherhood/kids.php</link>
+<thumbnail>https://i.imgur.com/2LuotQ2.png</thumbnail>
+<fanart></fanart>
+    <content></content>
+</dir>
+
+<dir>
+    <title>[COLOR white][B]Anime / Cartoons Collection[/B][/COLOR]</title>
+    <link>http://www.geektvpr.com/intrcomp/brotherhood/anime.php</link>
+<thumbnail>https://i.imgur.com/bVIHpwg.png</thumbnail>
+<fanart></fanart>
+    <content></content>
+</dir>
+
+<dir>
+    <title>[COLOR white][B]Brotherhood Picks[/B][/COLOR]</title>
+    <link>http://www.geektvpr.com/intrcomp/brotherhood/brotherhoodpicks.php</link>
+    <thumbnail>https://i.imgur.com/ZsKhcaI.png</thumbnail>
+    <summary></summary>
+</dir>
+
+<dir>
+    <title>[COLOR white][B]CPRADOF Picks[/B][/COLOR]</title>
+    <link>https://www.geektvpr.com/cpradof/cpradofmain.xml</link>
+    <thumbnail>https://i.imgur.com/RE1svsi.png</thumbnail>
+    <summary></summary>
+</dir>
+
+<dir>
+    <title>[COLOR white][B]Puerto Rico VOD[/B][/COLOR]</title>
+    <link>http://www.geektvpr.com/intrcomp/brotherhood/prvod.php</link>
+    <thumbnail></thumbnail>
+    <summary></summary>
+</dir>
+
+
+<plugin>
+<title>[B][COLOR white]Nikarus Space [/COLOR][/B]</title>
+<link>plugin://plugin.video.allianceloader/?mode=1&url=https://pastebin.com/raw/pffrxaDA</link>
+<thumbnail>https://i.imgur.com/eK7DUUR.png</thumbnail>
+</plugin>
+
+<dir>
+    <title>[COLOR white][B]Talento Local[/B][/COLOR]</title>
+    <link>http://www.geektvpr.com/intrcomp/brotherhood/talentoloc.php</link>
+    <thumbnail></thumbnail>
+    <summary></summary>
+</dir> 
+
+
+<plugin>
+<title>[COLOR white][B]Humor[/B][/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCBvH9S-9HK8Ks5PqQPee_Dg/playlists/</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<dir>
+    <title>[COLOR white][B]FITNESS [COLOR red]( OFFLINE )[COLOR yellow] New Addon Soon[/B][/COLOR]</title>
+    <link>http:</link>
+    <thumbnail>https://i.imgur.com/oWGWIch.png</thumbnail>
+    <summary></summary>
+</dir>    
+
+ 
+<plugin>
+<title>[COLOR white][B]Youtube Live[/B][/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLU12uITxBEPHOJO1FU8qll6gQmKcXp5S7/</link>
+<thumbnail>https://i.imgur.com/EviMuSH.png</thumbnail>
+</plugin>
+
+
+
+<dir>
+    <title>[COLOR white][B]Karaoke[/B][/COLOR]</title>
+    <link>http://www.geektvpr.com/intrcomp/brotherhood/karaoke.php</link>
+    <thumbnail>https://i.imgur.com/6jsLke8.png</thumbnail>
+    <summary></summary>
+</dir>
+
+<plugin>
+<title>[COLOR white][B]Virtual Reality[/B][/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCzuqhhs6NWbgTzMuM09WKDQ/playlists/</link>
+<thumbnail>https://i.imgur.com/EviMuSH.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR white][B]Tutoriales GeekTvPR Youtube Channel [COLOR red](OffLine)[/B][/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PL51szmFUJ6MN0nq2-dNO_DO5Lty8yLBEF/</link>
+<thumbnail>https://i.imgur.com/4ExVJWb.png</thumbnail>
+</plugin>
+
+  plugin>
+    <name>[COLOR red][B]Testings[/B][/COLOR]</name>
+    <link>plugin://plugin.video.alliance/?action=developer</link>
+    <thumbnail></thumbnail>
+    <summary>Testings</summary>
+  </plugin>
+
+
+<plugin>
+<name>[COLOR yellow]Clear Cache[/COLOR]</name>
+<link>plugin://plugin.video.alliance/?mode=clearCache</link>
+<thumbnail>https://i.imgur.com/7q0ja3w.png</thumbnail>
+<fanart></fanart>
+</plugin>
+
+
+<plugin>
+<name>[COLOR yellow]Settings[/COLOR]</name>
+<link>plugin://plugin.video.alliance/?action=openSettings</link>
+<thumbnail>https://i.imgur.com/7q0ja3w.png</thumbnail>
+<fanart></fanart>
+</plugin>
+
+
+<plugin>
+<name>[COLOR yellow]Scraper Settings[/COLOR]</name>
+<link>plugin://plugin.video.alliance/?mode=ScraperSettings</link>
+<thumbnail>https://i.imgur.com/7q0ja3w.png</thumbnail>
+<fanart></fanart>
+</plugin>
+
+plugin>
+<title>[B][COLOR white]Testing  [/COLOR][/B]</title>
+<link>plugin://plugin.video.allianceloader/?mode=1&url=http://www.geektvpr.com/intrcomp/brotherhood/espanol/peliculas.php</link>
+<thumbnail>https://i.imgur.com/eK7DUUR.png</thumbnail>
+</plugin>
+
+
+     
+        dir>
+            <title>24/7 Movies and TV Shows</title>
+            <meta>
+                <summary>Find streams for Movies, TV Shows, and Channels that are, as the title suggests, 24/7</summary>
+            </meta>
+            <link>file://arconai.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/247.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>4K Movies and TV Shows</title>
+            <meta>
+                <summary>One Click Play Movies and TV Shows in 4K</summary>
+            </meta>
+            <link>file://4k.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/4k.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>Arrakis TV</title>
+            <meta>
+                <title>Arrakis TV</title>
+                <summary>Live TV in standard and high definition</summary>
+            </meta>
+            <link>file://live/main.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/livetv.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>Movie Mania</title>
+            <meta>
+                <title>Movie Mania</title>
+                <summary>Themed movie and tv show sections that make use of the Universal Scrapers</summary>
+            </meta>
+            <link>file://moviemania/main.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/movies.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>Anime and Toons</title>
+            <meta>
+                <title>Anime and Toons</title>
+                <summary>One Click Play section for the Anime and Toon fix you need</summary>
+            </meta>
+            <link>file://anime.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/anime.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>Documented</title>
+            <meta>
+                <title>Documented</title>
+                <summary>Countless documentaries from multiple sources to keep you informed</summary>
+            </meta>
+            <link>file://documented/main.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/docu.png</thumbnail>
+        </dir>
+
+        
+
+        dir>
+            <title>Kids Play Room</title>
+            <meta>
+                <title>Kids Play Room</title>
+                <summary>Curated content just for the kids. From Youtube, to One Click Play, to scraper sections, we aim to source what the young ones will enjoy</summary>
+            </meta>
+            <link>file://kids.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/kids.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>Live and Loud</title>
+            <meta>
+                <title>Live and Loud</title>
+                <summary>A massive collection of live concerts for bands from around the world</summary>
+            </meta>
+            <link>file://concerts.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/liveandloud.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>Loud and Proud</title>
+            <meta>
+                <title>Loud and Proud</title>
+                <summary>A massive collection of music that makes use of Universal Scrapers for the sources</summary>
+            </meta>
+            <link>file://musicwtf/main.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/loudandproud.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>The Spice Room</title>
+            <meta>
+                <title>The Spice Room</title>
+                <summary>This content is only for 18+, and as such is disabled by default. Once enabled, you will need the password to gain access</summary>
+            </meta>
+            <adult>QXJyYWtpUG9ybnxmaWxlOi8vYWR1bHQvbWFpbi54bWw=</adult>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/spiceroom.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>Network Nation</title>
+            <meta>
+                <title>Network Nation</title>
+                <summary>Find your tv shows based on the network channel they air on</summary>
+            </meta>
+            <link>file://networks.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/networks.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>The Archives</title>
+            <meta>
+                <summary>The ultimate collection of free domain audio and video anywhere in Kodi. If you see it elsewhere, it's a copy</summary>
+            </meta>
+            <link>file://archives/main.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/archives.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>The Voices Within</title>
+            <meta>
+                <title>The Voices Within</title>
+                <summary>Did someone say Podcast?</summary>
+            </meta>
+            <link>file://podcasts/main.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/voices.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>To Be A Hero</title>
+            <meta>
+                <title>To Be A Hero</title>
+                <summary>Marvel and DC movies and tv shows supported by Universal Scrapers</summary>
+            </meta>
+            <link>file://dasupers.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/hero.png</thumbnail>
+        </dir>
+
+        dir>
+            <title>Settings</title>
+            <meta>
+                <title>Settings</title>
+                <summary>Arrakis specific settings, scraper settings, pairing, and more</summary>
+            </meta>
+            <link>file://msettings.xml</link>
+            <thumbnail>https://raw.githubusercontent.com/muaddibttv/artwork/master/arrakis/settings.png</thumbnail>
+        </dir>
+    </mainmenu>
+</alliance>
