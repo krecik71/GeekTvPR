@@ -172,7 +172,7 @@
   </extension>
 </addon>
 
-<addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.1.5" provider-name="GeekTvPR Group">
+<addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.1.8" provider-name="GeekTvPR Group">
 	<requires>
             <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -202,19 +202,8 @@
         	<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
         	<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
 			</dir>
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/zips/</datadir>
-            <hashes>false</hashes>
-        </dir>
-        <dir>
-            <info>https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/</datadir>
-        </dir>
-
-        <dir>
+	      
+       <dir>
             <info compressed="true">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
         <checksum>https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/zach-morris/repository.zachmorris/master/</datadir>
@@ -229,56 +218,19 @@
             <checksum>https://raw.githubusercontent.com/tubestrending/john/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/tubestrending/john/master/</datadir>
         </dir>
-        <dir>
-            <info compressed="false">http://repo.trident.fun/_repo/addons.xml</info>
-            <checksum>http://repo.trident.fun/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://repo.trident.fun/_repo/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://www.onenation.appboxes.co/repository/repofiles/addons.xml</info>
-        <checksum>https://www.onenation.appboxes.co/repository/repofiles/addons.xml.md5</checksum>
-        <datadir zip="true">https://www.onenation.appboxes.co/repository/repofiles/</datadir>
-        </dir>
-        <dir>
-        	<info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://hdlatino.us/hdlatino/plugins/addons.xml</info>
-        <checksum>https://hdlatino.us/hdlatino/plugins/addons.xml.md5</checksum>
-        <datadir zip="true">https://hdlatino.us/hdlatino/plugins/</datadir>
-        </dir>
-        <dir>
-        	<info compressed="false">http://ukodi1.com/_repo/addons.xml</info>
-            <checksum>http://ukodi1.com/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://ukodi1.com/_repo/</datadir>
-			<hashes>false</hashes>
-        </dir>
-        <dir>
+        
+       <dir>
 		<info compressed="false">https://raw.githubusercontent.com/duncanh52/modrepo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/duncanh52/modrepo/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/duncanh52/modrepo/master/plugins/</datadir>
 	</dir>
-	<dir>
-		<info compressed="false">http://cerbrepo.space/plugins/addons.xml</info>
-            <checksum>http://cerbrepo.space/plugins/addons.xml.md5</checksum>
-            <datadir zip="true">http://cerbrepo.space/plugins</datadir>
-			<hashes>false</hashes>
-        </dir>
+	
         <dir>
         	<info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
         </dir>
-        <dir>
-        	<info compressed="false">http://fspmkodi.com/_repo/addons.xml</info>
-            <checksum>http://fspmkodi.com/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://fspmkodi.com/_repo/</datadir>
-			<hashes>false</hashes>
-        </dir>
-
-
+        
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Repositorio GeekTvPR Media</summary>
