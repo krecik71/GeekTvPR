@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
-<addon id="plugin.video.mobdro" name="Mobdro" version="1.2" provider-name="Anonimous">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.livestreamer" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_gb">Mobdro</summary>
-    <description lang="en_gb">Mobdro</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
 
 <addon id="script.module.mobdro" name="Mobdro" version="11" provider-name="RACC">
   <requires>
@@ -158,19 +135,6 @@
 	</extension>
  </addon>
 
-<addon id="plugin.video.cloud9install" name="RomFlix emulator installer" version="1" provider-name=".:C.T.R.L:.">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">RomFlix emulator installer</summary>
-    <description lang="en">Easy Install off the install off the emulators that are needed for the use off romflix </description>
-    <platform>all</platform>
-  </extension>
-</addon>
 
 <addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.1.8" provider-name="GeekTvPR Group">
 	<requires>
