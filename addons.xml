@@ -2,7 +2,7 @@
 <addons>
 
 
-<addon id="script.module.mobdro" name="Mobdro" version="2.1" provider-name="RACC">
+<addon id="script.module.deceit-mobdro" name="Deceit Mobdro" version="1.6" provider-name="Deceit">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.livestreamer" />
@@ -13,8 +13,8 @@
     <provides>all</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_gb">Mobdro</summary>
-    <description lang="en_gb">Mobdro</description>
+    <summary lang="en_gb">Cloned for Deceit users from RACC Mobdro Module. All credit must go to anyone involved in the Original Code</summary>
+    <description lang="en_gb">Module for Mobdro APK</description>
     <disclaimer lang="en_gb"></disclaimer>
     <language></language>
     <platform>all</platform>
@@ -333,7 +333,7 @@
 
 <addon id="plugin.video.allianceloader"
        name="Allianceloader"
-       version="2.9.4"
+       version="2.9.5"
        provider-name="Alliance Group">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -349,7 +349,7 @@
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.slproxy" />
     <import addon="script.module.pyamf" optional="true"/>
-	<import addon="script.module.mobdro"/>
+	<import addon="script.module.deceit-mobdro"/>
     <import addon="script.module.tvone1111" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
