@@ -466,7 +466,7 @@
 
 <addon id="plugin.video.allianceloader"
        name="Allianceloader"
-       version="2.9.5"
+       version="2.9.6"
        provider-name="Alliance Group">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -482,8 +482,9 @@
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.slproxy" />
     <import addon="script.module.pyamf" optional="true"/>
-	<import addon="script.module.deceit-mobdro"/>
+  <import addon="script.module.deceit-mobdro"/>
     <import addon="script.module.tvone1111" />
+    <import addon="script.module.tvone" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
