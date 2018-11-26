@@ -388,7 +388,6 @@ Diese Addon verwendet pyDes von Todd Whiteman</disclaimer>
   </extension>
 </addon>
 
-
 <addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.2.0" provider-name="GeekTvPR Group">
 	<requires>
             <import addon="xbmc.addon" version="12.0.0"/>
