@@ -546,9 +546,9 @@ Diese Addon verwendet pyDes von Todd Whiteman</disclaimer>
 
 <addon
   id="plugin.video.Sportevil"
-  version="1.0.7"
+  version="1.0.8"
   name="Sportevil"
-  provider-name="Sportevil">
+  provider-name="Team Alliance">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.dateutil" />
