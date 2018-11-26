@@ -12,8 +12,7 @@ item_info_build=%s
 
 item_info_name=strurl
 item_info_from=jsurl
-item_info_convert=getInfo('%s','.*url=([^"]+)','@jsurl@')
-#item_info_convert=debug
+item_info_convert=getInfo('%s','.*window.location.replace\("([^"]+)','@jsurl@')
 item_info_build=%s
 
 item_info_name=refUrl

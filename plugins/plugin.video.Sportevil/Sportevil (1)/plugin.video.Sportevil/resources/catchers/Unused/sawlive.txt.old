@@ -21,7 +21,7 @@ item_info_convert=unicode_escape
 item_info_build=%s
 
 item_info_name=tmpUrl
-item_info_from=http://www3.sawlive.tv/embed/stream/'+p1+'/'+p2+'
+item_info_from=http://www3.sawlive.tv/embed/watch/'+p1+'/'+p2+'
 item_info_build=%s
 
 item_info_name=tmp

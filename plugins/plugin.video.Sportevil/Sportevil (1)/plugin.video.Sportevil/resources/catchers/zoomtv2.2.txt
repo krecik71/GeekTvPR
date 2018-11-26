@@ -178,7 +178,7 @@ item_info_convert=getInfo('%s','.*(offline|Offline)','@REFERER@')
 item_info_build=%s
 
 item_info_name=auth
-item_info_from=https://auth.livecamtv.me/'+
+item_info_from=https://authme.seckeyserv.me/'+
 item_info_convert=getInfo('%s','(.*)','@zmhost@')
 #item_info_convert=debug
 item_info_build=%s
